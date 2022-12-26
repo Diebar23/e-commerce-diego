@@ -1,10 +1,11 @@
+import {FaShoppingCart} from "react-icons/fa";
 const CartWidget = () => {
+  ;
     
   return (
     <div className="cart-widget">
       
-      <Carrito icon={Carrito} />
-      <div className="carrito">0</div>
+      <FaShoppingCart icon={FaShoppingCart} />;
     </div>
   );
 };
