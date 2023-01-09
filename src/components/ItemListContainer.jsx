@@ -1,9 +1,9 @@
 function ItemListContainer(props) {
 
     return(
-        <div>
-            <h1>{props.greeting} Bienvenidos a Mis Compras</h1>
-        </div>
+        
+            <h1>{props.title}</h1>
+        
     );
 }
 

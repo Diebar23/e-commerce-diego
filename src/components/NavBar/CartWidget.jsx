@@ -5,7 +5,7 @@ const CartWidget = () => {
   return (
     <div className="cart-widget">
       
-      <FaShoppingCart icon={FaShoppingCart} />;
+      <FaShoppingCart icon={FaShoppingCart} />
     </div>
   );
 };
