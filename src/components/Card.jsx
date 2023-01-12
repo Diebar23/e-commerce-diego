@@ -11,9 +11,8 @@ function Card(props) {
       <h3>$ {props.price}</h3>
       <small>{props.detail}</small>
       <Button padding="15px" color="purple">
-        Ver más
+        Más opciones
       </Button>
-      {/* Button( { text: "Hola desde props"} ) */}
     </div>
   );
 }

@@ -1,28 +1,20 @@
+import NavItem from "./NavItem";
+import "./navbar.css";
 import CartWidget from "./CartWidget";
 
-
-function NavBar (props){
-    return (
-        <nav>
-            <ul>
-                <li>
-                    <a href="/">
-                        <h4>Mis Compras</h4>
-                    </a>
-                </li>
-                <li>
-                    <a href="/">Hamburguesa</a>
-                </li>
-                <li> 
-                    <a href="/">Pollo</a>
-                </li>
-                <li>
-                    <a href="/">Vegetariano</a>
-                </li>              
-            </ul>
-            <CartWidget/>
-        </nav>
-    );
+function NavBar() {
+  return (
+    <nav>
+      <ul className="nav-menu">
+        <NavItem href="/"> Mis Compras </NavItem>
+        
+        <NavItem href="/">Hamburguesas</NavItem>
+        <NavItem href="/">Pollo</NavItem>
+        <NavItem href="/">Vegetariano</NavItem>
+        <CartWidget/>
+      </ul>
+    </nav>
+  );
     
 }
 
